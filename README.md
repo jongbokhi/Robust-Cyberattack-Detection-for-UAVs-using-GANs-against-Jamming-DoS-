@@ -29,6 +29,7 @@ This study aims to show the vulnerability of ML-based NIDS to adversarial attack
    -plot_adversarial_training_before&after
 
 #WCGAN-GP Architecture
+
 ![image](https://github.com/jongbokhi/Robust-Cyberattack-Detection-for-UAVs-using-GANs-against-Jamming-DoS-/assets/105177081/8e561988-3b9f-4ee9-af5f-7f72cea44217)
 
 ![image](https://github.com/jongbokhi/Robust-Cyberattack-Detection-for-UAVs-using-GANs-against-Jamming-DoS-/assets/105177081/02d1507a-0067-4005-92c5-56ac13e666f1)
@@ -37,6 +38,7 @@ This study aims to show the vulnerability of ML-based NIDS to adversarial attack
 
 
 #Experimental Design
+
 ![image](https://github.com/jongbokhi/Robust-Cyberattack-Detection-for-UAVs-using-GANs-against-Jamming-DoS-/assets/105177081/3ddec6d8-5919-4c7e-ad94-737f5b69c842)
 
 a trained generator within the WGCGAN-GP framework was used to generate fake-benign data in the initial phase of this study. This fake-benign dataset was created to resemble genuine samples closely and was produced by the trained generator. Next, we combined this fake-benign dataset with the original test dataset for performing adversarial attacks on pre-trained models and the original dataset for adversarial training purposes. To ensure the comparability and reliability of our findings, we employed an identical combined test dataset previously used to evaluate directly attacked models when assessing our adversarially trained models.
