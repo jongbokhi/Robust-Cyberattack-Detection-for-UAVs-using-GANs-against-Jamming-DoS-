@@ -1,5 +1,5 @@
 Topic: Robust Cyberattack Detection for UAVs using GANs against Jamming DoS
-Dataset: CSE-CIC-IDS2018 
+- Dataset: CSE-CIC-IDS2018 
 
 # Objective
 This study aims to show the vulnerability of ML-based NIDS to adversarial attacks and to increase the robustness of ML-based NIDS through adversarial training. In particular, the generation of adversarial samples using the existing GAN model is generated without specific constraints on the network domain, so there was a concern about unrealistic adversarial samples. Therefore, to address this concern, this study used WCGAN-GP to constrain the class label and complemented it with the A2PM module to generate realistic adversarial samples that meet the constraints of the network domain under the grey box setting.  In other words, this study used realistic adversarial samples to perform adversarial attacks and adversarial training.
@@ -18,7 +18,7 @@ This study aims to show the vulnerability of ML-based NIDS to adversarial attack
 ------------ the purpose of Adversarial attacks and Adversarial training-----------
 
 6. Build WCGAN-GP Model
-  - Adversarial_sample_wcgan_gp
+   - Adversarial_sample_wcgan_gp
   
 7. Adaptive Perturbation Pattern Method (A2PM)
    - A2PM_Directly_attack_pretrained_models
