@@ -9,24 +9,24 @@ This study aims to show the vulnerability of ML-based NIDS to adversarial attack
 1. Preprocessing dataset
    - Cleaning dataset
 3. Feature Selection
-   -Feature_Selection
+   - Feature_Selection
    
 5. Build Machine Learning Models and Evaluation
-   -GridSearch_Cross_validation
-   -Visualization_reuslts_of_evaluation
+   - GridSearch_Cross_validation
+   - Visualization_reuslts_of_evaluation
    
 ------------ the purpose of Adversarial attacks and Adversarial training-----------
 
 6. Build WCGAN-GP Model
-  -Adversarial_sample_wcgan_gp
+  - Adversarial_sample_wcgan_gp
   
 7. Adaptive Perturbation Pattern Method (A2PM)
-   -A2PM_Directly_attack_pretrained_models
-   -Adversarial_training_A2PM
-   -Adversarial_attack_to_adversarial_trained_models
+   - A2PM_Directly_attack_pretrained_models
+   - Adversarial_training_A2PM
+   - Adversarial_attack_to_adversarial_trained_models
    
 9. The result
-   -plot_adversarial_training_before&after
+   - plot_adversarial_training_before&after
 
 #WCGAN-GP Architecture
 
@@ -37,11 +37,15 @@ This study aims to show the vulnerability of ML-based NIDS to adversarial attack
 ![image](https://github.com/jongbokhi/Robust-Cyberattack-Detection-for-UAVs-using-GANs-against-Jamming-DoS-/assets/105177081/8c9a6177-776d-4bbb-b2c8-088e74d34507)
 
 
+
 #Experimental Design
+
 
 ![image](https://github.com/jongbokhi/Robust-Cyberattack-Detection-for-UAVs-using-GANs-against-Jamming-DoS-/assets/105177081/3ddec6d8-5919-4c7e-ad94-737f5b69c842)
 
+
 a trained generator within the WGCGAN-GP framework was used to generate fake-benign data in the initial phase of this study. This fake-benign dataset was created to resemble genuine samples closely and was produced by the trained generator. Next, we combined this fake-benign dataset with the original test dataset for performing adversarial attacks on pre-trained models and the original dataset for adversarial training purposes. To ensure the comparability and reliability of our findings, we employed an identical combined test dataset previously used to evaluate directly attacked models when assessing our adversarially trained models.
+
 
 # Analysis of the Result
 
